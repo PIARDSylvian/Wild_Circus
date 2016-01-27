@@ -1,0 +1,234 @@
+body{
+	background-color: #cccccc;
+	margin:0;
+	background-image: url("img/bg_main.png");
+	background-repeat: repeat-y;
+	background-position: center;
+}
+
+h1{
+	margin:0;
+}
+
+h2{
+	margin: 0;
+	font-family: Lobster Two;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: Arimo;
+	margin:10px;
+}
+
+p {
+	font-family: Arimo;
+}
+.artiste p{
+	margin: 10px;
+}
+
+#programme p{
+	margin:0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+	font-family: Arimo;
+	margin: 0;
+}
+
+#page{
+	margin: auto;
+	width: 900px;
+}
+
+header{
+	text-align: center;
+}
+
+/* menu */
+nav ul{
+	background-image: url("img/bg_nav.png");
+	box-shadow: 0 5px 5px #1c1a19;
+	border-radius: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+nav li{
+	display: inline-block;
+	background-image: url("img/bg_spacer.png");
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+nav li a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
+	color: black;
+	width: 90px;
+	height: 40px;
+	margin: 0 20px;
+	line-height: 40px;
+}
+
+nav li a:hover{
+	background-image: url("img/bg_over.png");
+	text-shadow: 0 1px 0 rgba(255,255,255,.4);
+	font-weight: bold;
+}
+
+nav li:first-child{
+	background-image: none;
+}
+
+ .line{
+	 padding:0 10px;
+	 margin-bottom: 10px;
+ }
+ 
+/* content */
+section{
+	margin: 0 20px;
+	font-size: 0;
+}
+
+#intro p:first-child{
+	text-align:left;
+	margin:0;
+}
+
+#intro{
+	font-family: 'Arimo', sans-serif;
+	display: inline-block;
+	border: solid black 2px;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 2px 5px #1c1a19;
+	background-color: rgba(255,255,255,.2);
+	width: 622px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+#intro p{
+	text-align:justify;
+}
+
+
+/* side */
+aside{
+	display: inline-block;
+	width: 160px;
+	padding: 10px;
+	vertical-align: top;
+	border: solid black 2px;
+	border-radius: 15px;
+	text-align: center;
+	background-color: rgba(153,102,0,.2);
+	box-shadow: 0 2px 5px #1c1a19;
+	font-size: 16px;
+}
+
+/* programme */
+#programme{
+	display: inline-block;
+	text-align: center;
+	width: 230px;
+	border: solid black 2px;
+	padding: 5px;
+	margin:0 8px;
+	box-shadow: 0px 2px 5px #1c1a19;
+	background-color: rgba(255,255,255,.2);
+	font-size: 16px;
+}
+
+.illustration{
+	border: solid black 1px;
+	border-radius: 10px;
+	
+}
+
+/* extrai video */
+#extrais{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 486px;	
+	font-size: 16px;
+}
+
+/* artiste */
+
+.artiste{
+	vertical-align: top;
+	display: inline-block;
+	text-align:center;
+	border: solid black 2px;
+	padding: 10px;
+	box-shadow: 0px 2px 5px #1c1a19;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 5px;
+	font-size: 16px;
+	width:692px;
+}
+.photo{
+	display: inline-block;
+	border: solid black 2px;
+	background:white;
+	border-radius: 5px;
+	vertical-align: top;
+	padding:5px;
+	margin:0 10px 0 0;
+}
+#contact{
+	margin:20px;
+	font-size: 16px;
+	text-align:center;
+	border: solid 2px black;
+	border-radius:5px;
+}
+form{
+	display: inline-block;
+	margin:0 auto;
+	width:400px;
+}
+label{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+input{
+	width:200px;
+}
+textarea{
+	width:200px;
+	vertical-align: top;
+}
+
+/* footer */
+footer{
+	text-align: center;
+	font-size: 16px;
+}
+
+.social{
+	margin: 0 10px;
+}
+
+a.social img{
+	border: solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px #1c1a19;
+}
+a:hover.social img{
+	box-shadow: 0px 0px 13px #1c1a19;
+}
