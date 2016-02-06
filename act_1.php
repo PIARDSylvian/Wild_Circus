@@ -1,6 +1,6 @@
 <?php
 	$titrePage = "Act 1 - ";
-	include("_header.php");
+	include("./_header.php");
 ?>
 <section>
 	<div class="line">
@@ -27,7 +27,7 @@
 		</aside>
 	</div>
 	<div class="line">
-		<img src="img/jared.jpg" alt="Jared Isley" class="photo" />
+		<img src="./img/jared.jpg" alt="Jared Isley" class="photo">
 		<article class="artiste">
 			<h3>The Artist:</h3>
 			<p>I am Jared Isley, i am 35 years old and i have been working as a masmerer clown for ten years now</p>

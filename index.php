@@ -1,6 +1,6 @@
 <?php
 	$titrePage = "";
-	include("_header.php");
+	include("./_header.php");
 ?>
 <section>
 	<div class="line">
@@ -26,7 +26,7 @@
 		</aside>
 	</div>
 	<div class="line">
-		<img src="img/clown1.png" class="illustration" alt="illustration clown" />
+		<img src="./img/clown1.png" class="illustration" alt="illustration clown">
 		<article id="programme">
 			<h2>Program</h2>
 				<h3>Act 1: Dream</h3>
@@ -39,7 +39,7 @@
 					acrobatics</p>
 				<h3>Final</h3>
 			</article>
-		<img src="img/clown2.png" class="illustration" alt="illustration clown" />
+		<img src="./img/clown2.png" class="illustration" alt="illustration clown">
 	</div>
 </section>
-<?php include("_footer.php")?>
+<?php include("./_footer.php")?>

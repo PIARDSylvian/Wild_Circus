@@ -94,7 +94,7 @@ nav li:first-child{
 	 padding:0 10px;
 	 margin-bottom: 10px;
  }
- 
+
 /* content */
 section{
 	margin: 0 20px;
@@ -154,7 +154,7 @@ aside{
 .illustration{
 	border: solid black 1px;
 	border-radius: 10px;
-	
+
 }
 
 /* extrai video */
@@ -162,7 +162,7 @@ aside{
 	text-align: center;
 	display: inline-block;
 	vertical-align: top;
-	width: 486px;	
+	width: 486px;
 	font-size: 16px;
 }
 
@@ -205,15 +205,19 @@ label{
 	display:inline-block;
 	width:100px;
 	text-align:right;
+	margin-right:5px;
 }
 input{
 	width:200px;
 }
+input[type=submit]{
+	width: auto;
+}
+
 textarea{
 	width:200px;
 	vertical-align: top;
 }
-
 /* footer */
 footer{
 	text-align: center;

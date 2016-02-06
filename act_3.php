@@ -1,6 +1,6 @@
 <?php
 	$titrePage = "Act 3 - ";
-	include("_header.php");
+	include("./_header.php");
 ?>
 <section>
 	<div class="line">
@@ -27,11 +27,11 @@
 		</aside>
 	</div>
 	<div class="line">
-		<img src="img/keith.jpg" alt="Jared Isley" class="photo" />
+		<img src="./img/keith.jpg" alt="Jared Isley" class="photo">
 		<article class="artiste">
 			<h3>The artist: Keith Derington</h3>
 			<p>I am Keith Derington, i am 22 years old, i was born and raised in the circus, practicing acrobatics since i was five.</p>
 		</article>
 	</div>
 </section>
-<?php include("_footer.php")?>
+<?php include("./_footer.php")?>

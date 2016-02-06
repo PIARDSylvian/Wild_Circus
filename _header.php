@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" >
-				<link href='https://fonts.googleapis.com/css?family=Lobster+Two|Arimo' rel='stylesheet' type='text/css'>
-				<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+				<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster+Two|Arimo' type='text/css'>
+				<link rel="stylesheet" href="./style.css">
 		<!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <![endif]-->
@@ -12,7 +12,7 @@
 	<body>
 		<div id="page">
 			<header>
-				<h1><img src="img/logo.png" alt="Wild Circus"></h1>
+				<h1><img src="./img/logo.png" alt="Wild Circus"></h1>
 			</header>
 			<nav>
 				<ul>

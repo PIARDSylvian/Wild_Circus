@@ -1,6 +1,6 @@
 <?php
 	$titrePage = "Act 2 - ";
-	include("_header.php");
+	include("./_header.php");
 ?>
 <section>
 	<div class="line">
@@ -27,7 +27,7 @@
 		</aside>
 	</div>
 	<div class="line">
-		<img src="img/summer.jpg" alt="Summer Ward" class="photo" />
+		<img src="./img/summer.jpg" alt="Summer Ward" class="photo">
 		<article class="artiste">
 			<h3>The artist: Summer ward</h3>
 			<p>I am 28 years old, former Vet for exotic Animals.<br />
@@ -35,11 +35,11 @@
 		</article>
 	</div>
 	<div class="line">
-		<img src="img/maya_loona.jpg" alt="maya et loona" class="photo" />
+		<img src="./img/maya_loona.jpg" alt="maya et loona" class="photo">
 		<article class="artiste">
 			<h3>Maya and Loona</h3>
 			<p>Four years old, we were born within the circus, we were taught how to perform by Summer.</p>
 		</article>
 	</div>
 </section>
-<?php include("_footer.php")?>
+<?php include("./_footer.php")?>
